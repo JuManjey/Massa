@@ -1,0 +1,13 @@
+. <(wget -qO- https://raw.githubusercontent.com/SecorD0/Massa/main/multi_tool.sh)
+massa_node_info
+cd $HOME/massa_backup/
+cat node_privkey.key 
+cat wallet.dat
+//copy the info
+massa_node_info
+//faucet discord
+massa_buy_rolls
+massa_wallet_info
+massa_buy_rolls -mb
+massa_cli_client -a node_add_staking_private_keys
+massa_node_info
