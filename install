@@ -11,3 +11,7 @@ massa_wallet_info
 massa_buy_rolls -mb
 massa_cli_client -a node_add_staking_private_keys
 massa_node_info
+wget -qO- eth0.me
+//discord bot
+massa_cli_client -a node_testnet_rewards_program_ownership_proof
+//discord bot
