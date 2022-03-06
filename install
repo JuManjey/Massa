@@ -15,3 +15,7 @@ wget -qO- eth0.me
 //discord bot
 massa_cli_client -a node_testnet_rewards_program_ownership_proof
 //discord bot
+
+#Check the massa
+source .bash_profile
+massa_node_info
